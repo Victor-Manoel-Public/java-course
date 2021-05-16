@@ -1,2 +1,6 @@
-# java-course
-Java source codes from my course and more.
+
+
+# What I'm gonna post here?
+<p>Solved problems source code from my Java course;<br/>
+Solved problems from [hackerrank](hackerrank.com);
+</p>
