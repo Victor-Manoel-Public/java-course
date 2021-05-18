@@ -1,4 +1,5 @@
 public class SecondsAndMinutes {
+    public static final String invalid_value = "Invalid Value";
 
     /*
     1. Create a method called getDurationString with two parameters, first parameter minutes and 2nd parameter seconds.
@@ -24,12 +25,12 @@ public class SecondsAndMinutes {
             int remainMinutes = min % 60;
             return hours + "h " + remainMinutes + "m " + secs +"s";
         }
-        return "Invalid Value";
+        return invalid_value;
     }
 
     public static String getDurationString(int seconds){
          if(seconds < 0 ){
-             return "Invalid Value";
+             return invalid_value;
          }
          int minutes = seconds / 60;
          int remainSeconds = seconds % 60;
