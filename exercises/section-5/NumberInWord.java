@@ -1,5 +1,3 @@
-package com.company;
-
 public class NumberInWord {
     /*
     Write a method called printNumberInWord.
