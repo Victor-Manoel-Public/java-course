@@ -20,10 +20,7 @@ public class AreaCalculator {
 
      */
     public static double area(double radius){
-        if(radius < 0){
-            return invalid_value;
-        }
-        return (radius * radius * Math.PI);
+        return (radius < 0 ) ? invalid_value : (radius * radius * Math.PI);
     }
 
     public static double area(double x, double y){
