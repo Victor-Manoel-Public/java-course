@@ -27,11 +27,7 @@ public class AreaCalculator {
     }
 
     public static double area(double x, double y){
-        if((x < 0) || (y < 0)){
-            return invalid_value;
-        }
-
-        return x * y;
+        return ((x < 0) || (y < 0)) ? invalid_value : x * y;
     }
 
     public static void main(String[] args) {
