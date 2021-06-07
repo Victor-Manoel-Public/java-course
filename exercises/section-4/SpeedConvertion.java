@@ -45,12 +45,7 @@ public class SpeedConvertion {
     }
 
     public static long toMilesPerHour(double kilometresPerHour){
-        if( (long) (kilometresPerHour) < 0){
-            return -1;
-        }
-
-        return (Math.round(kilometresPerHour * 0.621371));
-
+        return ( (long) (kilometresPerHour) < 0 ) ? -1 : (Math.round(kilometresPerHour * 0.621371));
     }
 
     public static void main(String[] args) {
