@@ -14,11 +14,10 @@ import static java.util.stream.Collectors.toList;
 
 public class Solution {
     /*
-    Given an integer, n, print its first 10 multiples. Each multiple n x i (where ) should be printed on a new line in the form: n x i = result.
+    Given an integer, n, print its first 10 multiples. Each multiple n x i (where n) should be printed on a new line in the form: n x i = result.
     */
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
         int n = Integer.parseInt(bufferedReader.readLine().trim());
         for(int i = 1; i <= 10; i++){
             System.out.println(n + " x " + i + " = " + (n * i));
