@@ -71,11 +71,7 @@ public class Main {
         }
 
         public void setAge(int age) {
-            if ((age < 0 || age > 100)) {
-                this.age = 0;
-            }else{
-                this.age = age;
-            }
+            this.age = (age < 0 || age > 100) ? 0 : age;
         }
 
         public boolean isTeen() {
