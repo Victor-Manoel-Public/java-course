@@ -9,6 +9,17 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Convert2CSV {
+	
+	/*
+		Create a class named Convert2CSV.
+		This class needs one constructor and two inicial fields, initialFile and endFile.
+		A method named named getInitialFile that returns the initialFile.
+		A method named getEndFile that returns the endFile.
+		A method named convert without any parameters
+			The method needs to find a txt file and copy to a csv file.
+		In total, write 3 methods and one constructor.
+	
+	*/
 
 	private String initialFile;
 	private String endFile;
