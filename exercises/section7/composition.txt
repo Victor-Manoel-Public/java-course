@@ -1,1 +1,0 @@
-This module is about composition in Java
