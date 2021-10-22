@@ -7,9 +7,7 @@ public class IntSortedArray {
 
     public static void main(String[] args) {
 
-        //int[] nums = new int[size];
         int[] nums = getIntegers(2);
-        //printArray(nums);
         int[] sorted = sortIntegers(nums);
         printArray(sorted);
     }
@@ -28,15 +26,8 @@ public class IntSortedArray {
         }
     }
     public static int[] sortIntegers(int[] arr){
-        //int[] sortedArray = new int[arr.length];
-
-        // copy the arr to sortedArray
-        /*for (int k = 0; k < arr.length; k++){
-            sortedArray[k] = arr[k];
-        }*/
 
         int[] sortedArray = Arrays.copyOf(arr, arr.length);
-
         boolean run = true;
         int temp;
         while (run){
