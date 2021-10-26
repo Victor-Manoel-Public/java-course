@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.toList;
 
 
 
-public class Solution {
+public class Day3 {
     /*
     If n is odd, print Weird
     If n is even and in the inclusive range of 2 to 5, print Not Weird
